@@ -3,6 +3,13 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
+/// <summary>
+/// Server, is work client to server always.
+/// 
+/// And receive message from client.
+/// 
+/// ...
+/// </summary>
 static void StartServer()
 {
 	IPHostEntry host = Dns.GetHostEntry("localhost");
